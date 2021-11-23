@@ -1,4 +1,4 @@
 #!/bin/bash
 
 npm install --production
-pm2 restart all
+pm2 start app.js
